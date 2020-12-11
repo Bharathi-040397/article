@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whole-page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+.page-heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-heading h2{
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    font-weight: 800;
+    color:skyblue;
+}
+.page-heading p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.page-content
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    max-width: 1200px;
+    height: auto;
+    margin-top: 3rem;
+}
+.img-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 30px;
+}
+.img-container img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 600px;
+    height: auto;
+    background-color:rgb(240, 231, 231);
+}
+.btn-container
+{
+    width: 600px;
+    display: flex;
+    
+}
+.btn
+{
+    background-color: skyblue;
+    display: inline-block;
+    width:200px ;
+    text-transform: capitalize;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    }
+    .btn-content
+    {
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .content{
+        display: none;
+        height: fit-content;
+        margin-top:0;
+    }
+    .content h2{
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      padding: 1rem;
+    }
+    .content p{
+        font-size: 18px;
+        font-weight: 300px;
+    }
+    .list
+    {
+        list-style: none;
+        margin-top: 0.5rem;
+    }
+    .active
+    {
+        display: block;
+        color:black;
+        background-color: rgb(240, 231, 231);
+    }
